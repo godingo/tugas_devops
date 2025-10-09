@@ -1,13 +1,9 @@
 {
-  "name": "backend",
+  "name": "hello-node",
   "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
+  "description": "Simple Node.js Hello World app",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "express": "^4.18.2",
-    "mysql2": "^3.6.0"
+    "start": "node app.js"
   }
 }
